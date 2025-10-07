@@ -32,11 +32,15 @@ function App() {
   const renderStartRef = useRef<number>(0);
 
   // Track filter performance
-  const filterTime = useMemo(() => {
-    const start = performance.now();
-  //  const _ = filteredProducts.length; // Access to trigger calculation
-    return performance.now() - start;
-  }, [filteredProducts]);
+ const [filterTime, setFilterTime] = useState(0);
+
+useEffect(() => {
+  const start = performance.now();
+  // Access filteredProducts to measure recalculation
+  filteredProducts.length;
+  setFilterTime(performance.now() - start);
+}, [filteredProducts]);
+
 
   // Track render time whenever filtered products change
   useEffect(() => {
