@@ -36,8 +36,6 @@ function App() {
 
 useEffect(() => {
   const start = performance.now();
-  // Access filteredProducts to measure recalculation
-  filteredProducts.length;
   setFilterTime(performance.now() - start);
 }, [filteredProducts]);
 
