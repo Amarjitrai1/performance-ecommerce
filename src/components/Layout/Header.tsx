@@ -1,5 +1,5 @@
 import React from 'react';
-import { Package, Zap } from 'lucide-react';
+import { Package } from 'lucide-react';
 import { CartButton } from '../Cart/CartButton';
 
 interface HeaderProps {

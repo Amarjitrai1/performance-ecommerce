@@ -1,5 +1,5 @@
 import { Product } from '../types';
-import { CATEGORIES, BRANDS, TAGS } from './constants';
+import { CATEGORIES, BRANDS } from './constants';
 
 const ADJECTIVES = [
   'Premium', 'Pro', 'Ultra', 'Smart', 'Essential', 'Advanced', 

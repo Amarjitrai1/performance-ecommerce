@@ -14,7 +14,7 @@ import { ViewMode } from './types';
 import { SORT_OPTIONS } from './utils/constants';
 
 function App() {
-  const { products, stats } = useProducts(5000);
+  const { products } = useProducts(5000);
   const {
     filters,
     sortBy,
