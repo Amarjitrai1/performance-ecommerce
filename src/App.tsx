@@ -34,7 +34,7 @@ function App() {
   // Track filter performance
   const filterTime = useMemo(() => {
     const start = performance.now();
-   const _ = filteredProducts.length; // Access to trigger calculation
+  //  const _ = filteredProducts.length; // Access to trigger calculation
     return performance.now() - start;
   }, [filteredProducts]);
 
