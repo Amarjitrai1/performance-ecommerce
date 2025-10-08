@@ -1,4 +1,4 @@
-import React, { useState, useMemo, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { Header } from './components/Layout/Header';
 import { PerformanceMetrics } from './components/Layout/PerformanceMetrics';
 import { ViewToggle } from './components/Layout/ViewToggle';
