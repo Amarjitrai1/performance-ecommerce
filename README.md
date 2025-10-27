@@ -6,21 +6,12 @@ A high-performance e-commerce platform built with React and TypeScript, optimize
 
 ## 🚀 Live Demo
 
-**[View Live Demo](https://your-ecommerce-demo.vercel.app)** | **[GitHub Repository](https://github.com/yourusername/performance-ecommerce)**
-
+**[View Live Demo](https://performance-ecommerce.netlify.app)** | 
 ## 📸 Screenshots
 
 ### Performance Dashboard
-![Performance Dashboard](https://via.placeholder.com/800x400/10B981/FFFFFF?text=Performance+Dashboard)
+![Performance Dashboard](/performance-ecommerce/public/performance-ecommerce.png)
 *Real-time performance metrics showing filter times, render times, and memory usage*
-
-### Product Grid View
-![Grid View](https://via.placeholder.com/800x400/3B82F6/FFFFFF?text=Product+Grid+View)
-*Responsive product grid with lazy-loaded images and smooth animations*
-
-### Advanced Filtering
-![Filters](https://via.placeholder.com/800x400/8B5CF6/FFFFFF?text=Advanced+Filtering)
-*Multi-criteria filtering with debounced search and instant results*
 
 ## ✨ Key Features
 
