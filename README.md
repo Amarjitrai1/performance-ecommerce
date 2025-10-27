@@ -10,7 +10,7 @@ A high-performance e-commerce platform built with React and TypeScript, optimize
 ## 📸 Screenshots
 
 ### Performance Dashboard
-![Performance Dashboard](/performance-ecommerce/public/performance-ecommerce.png)
+![Performance Dashboard](./performance-ecommerce.png)
 *Real-time performance metrics showing filter times, render times, and memory usage*
 
 ## ✨ Key Features
